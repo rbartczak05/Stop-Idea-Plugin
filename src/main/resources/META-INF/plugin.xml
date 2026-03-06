@@ -9,7 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.rbartczak05.stopideaplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.github.rbartczak05.stopideaplugin.toolWindow.WorkLifeBalanceWindowFactory" id="WorkLifeBalance"/>
         <postStartupActivity implementation="com.github.rbartczak05.stopideaplugin.startup.MyProjectActivity" />
     </extensions>
 </idea-plugin>
